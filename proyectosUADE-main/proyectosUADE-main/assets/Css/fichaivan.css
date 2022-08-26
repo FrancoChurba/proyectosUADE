@@ -4,10 +4,14 @@ h2{
 }
 
 body{
-    background-color: white;
-    color: black
+    background-color: yellow;
+    color: black;
 }
 
-.hola{
-    background-color:blue
+ul{
+    background-color: pink;
+    font-family: sans-serif;
+    color: #1F3C88;
+    margin: 0 0 15px 0
+    
 }

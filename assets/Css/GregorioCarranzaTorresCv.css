@@ -8,11 +8,14 @@ header {
 header h1 {
 
     padding: 1rem 0 0 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 header nav {
     margin: auto;
     padding: 1rem 0 1rem 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
 }
 
 a {

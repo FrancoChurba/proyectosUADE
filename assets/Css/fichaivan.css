@@ -1,14 +1,34 @@
 
 
 body{
-    background-color: yellow;
-    color: black;
+    background-color: #eec197de;
+    color:#6d93f3 ;
 }
 
+
 ul{
-    background-color: pink;
     font-family: sans-serif;
-    color: #1F3C88;
-    margin: 0 0 15px 0
+    color: #6d93f3;
     
 }
+
+.name{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.foto{
+    width: 200px;
+    height: 200px;
+    float: right;
+    border-color:black;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.mail{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+

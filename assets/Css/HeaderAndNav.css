@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration-line: none;
+    color: inherit;
+    line-height: normal;
+    box-sizing: unset;
+}
+
+h1 {
+    font-family: 'Libre Baskerville', serif;
+    padding: 1rem 0 1rem;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    background-color: lightblue;
+}
+
+header nav {
+
+    padding: 1rem 5rem 1rem 5rem;
+    width: -webkit-fill-available;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+    background-color: black;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    color: white;
+    padding: 0 1rem 0 1rem;
+}
+
+header nav ul li:hover {
+    color: lightblue;
+    animation-name: scaler;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes scaler {
+    100% {
+        transform: scale(1.5);
+    }
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    padding: 0 1rem 0 1rem;
+}
+
+/* --------------------------Footer */
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.informacionDeLaEmpresa {
+    text-align: start;
+    list-style: none;
+    padding: 1rem;
+
+}
+
+.footerinfo {
+    display: flex;
+    flex-direction: row;
+}

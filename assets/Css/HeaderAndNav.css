@@ -64,17 +64,26 @@ a {
 /* --------------------------Footer */
 
 footer {
-    margin-top: 1rem;
+
     text-align: center;
     color: white;
     background-color: black;
-    padding: 1rem;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
 
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 10rem;
+
+}
+
+footer .Faq {
+    padding: 1.5rem;
 }
 
 .informacionDeLaEmpresa {
@@ -87,4 +96,13 @@ footer {
 .footerinfo {
     display: flex;
     flex-direction: row;
+}
+
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+body {
+    margin-bottom: 20%;
 }

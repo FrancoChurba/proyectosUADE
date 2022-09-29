@@ -6,7 +6,7 @@
     text-decoration-line: none;
     color: inherit;
     line-height: normal;
-    box-sizing: unset;
+    box-sizing: border-box;
 }
 
 h1 {

@@ -1,0 +1,47 @@
+@media screen and (min-width: 1024px) {
+    .IntegrantList{
+        margin: auto;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .IntegrantList p{
+        margin: 0.5rem;
+    }
+    .IntegrantList ul li{
+        margin: 0.5rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .IntegrantList{
+        margin: auto;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .IntegrantList p{
+        margin: 0.5rem;
+    }
+    .IntegrantList ul li{
+        margin: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .IntegrantList{
+        margin: auto;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .IntegrantList p{
+        margin: 0.5rem;
+    }
+    .IntegrantList ul li{
+        margin: 0.5rem;
+    }
+}

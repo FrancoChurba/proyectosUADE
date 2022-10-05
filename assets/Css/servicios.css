@@ -95,7 +95,7 @@
 
     .servicesShowcase .ServiceCard {
         border: 0.1rem solid black;
-        padding: 1rem;
+        padding: 2rem;
         margin: 0.5rem;
         display: flex;
         flex-direction: column;

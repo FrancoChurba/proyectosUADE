@@ -10,11 +10,22 @@
 
     .servicesShowcase .ServiceCard {
         border: 0.1rem solid black;
-        padding: 1rem;
+        padding: 1.5rem;
+
         display: flex;
         flex-direction: column;
         align-items: center;
 
+    }
+
+    .servicesShowcase .ServiceCard p {
+        padding: 0.8rem 0;
+    }
+
+    .servicesShowcase .ServiceCard ul {
+        text-align: start;
+        width: 60%;
+        margin: auto;
     }
 
     .servicesShowcase .ServiceCard img {

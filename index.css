@@ -22,9 +22,19 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
 
     }
 
+    .servicesShowcase .ServiceCard p {
+        padding: 0.8rem 0;
+    }
+
+    .servicesShowcase .ServiceCard ul {
+        text-align: start;
+        width: 60%;
+        margin: 0 auto;
+    }
     .servicesShowcase .ServiceCard img {
 
         width: 8rem;
@@ -118,14 +128,25 @@
 
 
 
-    .stafServiceShowcase .stafServiceCard {
-        margin: 1rem;
+    .servicesShowcase .ServiceCard {
         border: 0.1rem solid black;
         padding: 1rem;
+
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
 
+    }
+
+    .servicesShowcase .ServiceCard p {
+        padding: 0.8rem 0;
+    }
+
+    .servicesShowcase .ServiceCard ul {
+        text-align: start;
+        width: 60%;
+        margin: 0 auto;
     }
 
     .stafServiceShowcase .stafServiceCard p {

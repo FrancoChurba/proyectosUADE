@@ -35,6 +35,7 @@
         width: 60%;
         margin: 0 auto;
     }
+
     .servicesShowcase .ServiceCard img {
 
         width: 8rem;
@@ -62,8 +63,7 @@
     }
 
     .stafServiceShowcase .stafServiceCard p {
-        width: 50%;
-        height: auto;
+
         text-align: center;
     }
 
@@ -111,6 +111,16 @@
 
     }
 
+    .servicesShowcase .ServiceCard p {
+        padding: 0.8rem 0;
+    }
+
+    .servicesShowcase .ServiceCard ul {
+        text-align: start;
+        width: 60%;
+        margin: 0 auto;
+    }
+
     .servicesShowcase .ServiceCard img {
 
         width: 8rem;
@@ -128,7 +138,7 @@
 
 
 
-    .servicesShowcase .ServiceCard {
+    .stafServiceShowcase .stafServiceCard {
         border: 0.1rem solid black;
         padding: 1rem;
 
@@ -139,15 +149,7 @@
 
     }
 
-    .servicesShowcase .ServiceCard p {
-        padding: 0.8rem 0;
-    }
 
-    .servicesShowcase .ServiceCard ul {
-        text-align: start;
-        width: 60%;
-        margin: 0 auto;
-    }
 
     .stafServiceShowcase .stafServiceCard p {
         width: 50%;
